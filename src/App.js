@@ -1,9 +1,12 @@
-import './App.css';
+// import './App.css';
+// import data from './data.json'
 import { Buttons } from './components/Buttons';
 import { PostsList } from './components/PostsList';
 import { Title } from './components/Title';
 
-function App() {
+
+
+export const App = () => {
   return (
     <div className="container">
       <Title/>
@@ -12,4 +15,4 @@ function App() {
     </div>
   );
 }
-export default App;
+
